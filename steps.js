@@ -21,7 +21,7 @@ const MinimumCost = (InputArray) => {
 
 };
 //Driver to test/run the function
-let Stairs = [[0, 2, 2, 1], [0, 2, 3, 2], [10, 15, 20], [0, 0, 0, 0, 0, 0], [1, 2, 3, 4, 5]];
+let Stairs = [[0], [0, 2, 2, 1], [0, 2, 3, 2], [10, 15, 20], [0, 0, 0, 0, 0, 0], [1, 2, 3, 4, 5]];
 
 for(let i = 0; i < Stairs.length; i ++) {
     console.log('--------------------------------------------------------------')
