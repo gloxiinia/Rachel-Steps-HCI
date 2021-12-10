@@ -5,7 +5,7 @@ const MinimumCost = (InputArray) => {
     
     // creating a variable for the inputted array length
     let StairsLength = InputArray.length
-    //control flow for default situation with only 2 array members
+    //control flow for default situation with only 1 array member
     if(StairsLength == 1) {
         return InputArray[0];
     };
