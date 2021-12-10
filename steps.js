@@ -9,11 +9,7 @@ const MinimumCost = (InputArray) => {
     if(StairsLength == 1) {
         return InputArray[0];
     };
-
-    //declaring the cost to climb the i-th staircase to from 0-th or 1-th step
-    InputArray[0];
-    InputArray[1];
-
+    
     //use a for loop to find the cost of climbing the stairs
     for(let i = 2; i < StairsLength; i ++) {
         //using the Math.min function to determine the minimum cost
